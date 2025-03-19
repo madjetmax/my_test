@@ -1,15 +1,13 @@
-import aiohttp
-import asyncio
 import user
 import user.users
+import asyncio
 
 
-async def run():
-    print(user)
-    print(user.users.users)
-    print("1133ddd")
-    await asyncio.sleep(1)
+
+async def main():
+    print(1111)
+    print(user.users)
 
 
 if __name__ == "__main__":
-    asyncio.run(run())
+    asyncio.run(main())
