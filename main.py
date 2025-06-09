@@ -6,6 +6,7 @@ import asyncio
 
 async def main():
     print(1111)
+    print("getting users...")
     print(user.users)
 
 
